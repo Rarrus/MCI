@@ -1,0 +1,144 @@
+main{
+  margin: 8vh 0 1vh 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  max-width:1400px;
+  width: 1000px;
+  height: auto;
+  padding: 30px;
+   background: rgba(0, 0, 0, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px); 
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(0, 0, 0, 0.3);
+display: flex;
+flex-wrap: nowrap;
+flex-direction: column;
+align-items: center;
+  
+}
+
+h1{
+  text-align: center;
+  color: black!important;
+}
+main *{
+  color: white;
+}
+
+main > * {
+  width: auto;
+  margin-bottom: 8px;
+}
+
+#lien a, #listing a, #tool a, #token a{
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(219, 181, 255);
+  font-weight: 700;
+  padding: 8px;
+  display: inline-block;
+}
+
+#top_box, #bottom_box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 100%;
+  margin-top: 30px;
+}
+#listing> div >div >  div:last-child{
+  margin-top: 8px;
+}
+#news{
+  flex-basis: 50%;
+}
+
+#social{
+  display: flex;
+  justify-content: center;
+}
+#token span {
+  font-weight: 800;
+}
+
+#lien> div, #listing > div, #token > div{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#lien> div, #token > div{
+  align-items: center;
+}
+
+#token > div {
+  justify-content: space-around;
+}
+
+#listing > div{
+  align-items:flex-start;
+
+}
+
+#listing > div > *{
+  width: 300px;
+  margin-left: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+
+}
+
+.box{
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+#listing > * {
+  text-align: center;
+}
+
+
+#lien > * {
+  text-align: center;
+}
+
+#tool > * {
+  text-align: center;
+}
+
+#token > *{
+  text-align: center;
+}
+h2, h3 {
+  border-bottom: solid 2px white;
+  width: auto;
+}
+
+#tool, #lien, #listing, #token{
+  padding: 10px;
+}
+
+#revoke_help{
+  display: block; /* Pour que le texte apparaisse sur une nouvelle ligne */
+  font-size: 12px; /* Taille de police */
+  color: #888; /* Couleur du texte */
+  margin-top: 5px; /* Marge supérieure pour espacement */
+}
+
+#tool> div{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#big_box{
+  display: flex;
+  flex-wrap: wrap;
+}
